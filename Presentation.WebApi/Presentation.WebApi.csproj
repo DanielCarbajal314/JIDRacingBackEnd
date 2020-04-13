@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DomainEntities\Domain.Entities.csproj" />
+    <ProjectReference Include="..\Domain.Entities\Domain.Entities.csproj" />
     <ProjectReference Include="..\Infrastructure.EFDbContext\Infrastructure.EFDbContext.csproj" />
     <ProjectReference Include="..\Services.DataTransformation\Services.DataTransformation.csproj" />
     <ProjectReference Include="..\Services.Implementation.EF\Services.Implementation.EF.csproj" />
