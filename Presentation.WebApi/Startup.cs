@@ -41,8 +41,7 @@ namespace Presentation.WebApi
                         builder
                         .AllowAnyOrigin()
                         .AllowAnyMethod()
-                        .AllowAnyHeader()
-                        .AllowCredentials();
+                        .AllowAnyHeader();
                     });
             });
             var assembly = AppDomain.CurrentDomain.Load("Services.Implementation.EF");

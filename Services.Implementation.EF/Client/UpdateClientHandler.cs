@@ -21,7 +21,7 @@ namespace Services.Implementation.EF.Client
             this._dbContext = dbContext;
         }
 
-        public async Task<RegisteredClient> Handle(NewClientRequest request, CancellationToken cancellationToken)
+        public async Task<RegisteredClient> Handle(UpdateClientRequest request, CancellationToken cancellationToken)
         {
             var client = request.ToEntity();
             this._dbContext.Clients.Attach(client).State = EntityState.Modified;
