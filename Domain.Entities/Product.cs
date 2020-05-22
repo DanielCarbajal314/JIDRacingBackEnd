@@ -12,5 +12,6 @@ namespace Domain.Entities
         public string Brand { get; set; }
         public string TechnicalDescription { get; set; }
         public string AditionalDrescription { get; set; }
+        public double Price { get; set; }
     }
 }

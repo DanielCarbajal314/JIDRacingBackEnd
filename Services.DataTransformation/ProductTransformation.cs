@@ -17,7 +17,8 @@ namespace Services.DataTransformation
                 Brand = request.Brand,
                 Model = request.Model,
                 Name = request.Name,
-                TechnicalDescription = request.TechnicalDescription
+                TechnicalDescription = request.TechnicalDescription,
+                Price = request.Price
             };
         }
 
@@ -30,7 +31,8 @@ namespace Services.DataTransformation
                 Brand = request.Brand,
                 Model = request.Model,
                 Name = request.Name,
-                TechnicalDescription = request.TechnicalDescription
+                TechnicalDescription = request.TechnicalDescription,
+                Price = request.Price
             };
         }
 
@@ -43,7 +45,8 @@ namespace Services.DataTransformation
                 Brand = entity.Brand,
                 Model = entity.Model,
                 Name = entity.Name,
-                TechnicalDescription = entity.TechnicalDescription
+                TechnicalDescription = entity.TechnicalDescription,
+                Price = entity.Price
             };
         }
     }

@@ -8,6 +8,8 @@ namespace Infrastructure.EFDbContext
     {
         public DbSet<Product> Products { get; set; }
         public DbSet<Client> Clients { get; set; }
+        public DbSet<Quote> Quotes { get; set; }
+        public DbSet<QuoteDetail> QuoteDetails { get; set; }
 
         public JIDRacingDbContext(DbContextOptions<JIDRacingDbContext> options): base(options)
         {
